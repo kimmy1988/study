@@ -17,3 +17,9 @@ day4:
     场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库。
 day5:
     命令git rm用于删除一个文件。如果一个文件已经被提交到版本库，那么你永远不用担心误删，但是要小心，你只能恢复文件到最新版本，你会丢失最近一次提交后你修改的内容。
+day6:
+    新文件提交到远程服务器：
+    git remote add origin https://github.com/kimmy1988/study.git
+    git push -u origin master
+    之后提交：
+    git push origin master
