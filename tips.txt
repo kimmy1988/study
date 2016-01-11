@@ -23,3 +23,6 @@ day6:
     git push -u origin master
     之后提交：
     git push origin master
+day7:
+    克隆服务器分支：
+    找到服务器分支后，git clone https://github.com/kimmy1988/gitskills.git
